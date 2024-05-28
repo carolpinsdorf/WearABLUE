@@ -1,0 +1,86 @@
+/* CORES:      AZUL 317588         BRANCO   b3c0ce */
+
+
+.h3Valores{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: #317588;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 26px;
+    width: 80%;
+}
+.valores{
+    color: #b3c0ce;
+    font: 200;
+    font-size: 25px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#textoColorido{
+    color: #317588;
+    font-weight: 400;
+}
+
+#p1Valores, #p4Valores{
+    font-weight: 400;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+#p2Valores{
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+#p3Valores{
+    text-align: center;
+    padding: 20px;
+    border: solid 5px #b3c0ce;
+}
+#p4Valores{
+    margin-top: 2%;
+}
+.contentEmpresa{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+.empresaMembros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.textoRafa, .textoCarol, .textoVictor {
+    color: white; 
+    font-size: 20px;
+    text-align: center;  
+    padding: 5px;
+}
+h3{
+    color: #3ba8e7;
+}
+.repo{
+    margin: auto;
+    width: fit-content;
+    font-size: 20px;
+    background-color: #3ba8e770;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+p a, .repo a{
+    color: #b3c0ce;
+    text-decoration: underline;
+}
+p a:hover, .repo a:hover{
+    color: #3ba8e7;
+}
+.logoGS{
+    margin: auto;
+    width: fit-content;
+}
