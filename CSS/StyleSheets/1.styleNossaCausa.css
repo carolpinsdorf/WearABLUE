@@ -67,4 +67,20 @@
 .img2Causa{
     margin: 5%;
 }
-
+.cont5Causa{
+    color: #b3c0ce;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.itemcont5{
+    font-size: 25px;
+    margin-top: 10%;
+}
+.cont6Causa{
+    margin: auto ;
+    width: fit-content;
+}
