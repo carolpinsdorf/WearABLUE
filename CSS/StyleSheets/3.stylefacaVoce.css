@@ -1,0 +1,20 @@
+
+/* CORES:      AZUL 317588         BRANCO   b3c0ce */
+
+#tituloFacaVoce{
+    color: #b3c0ce;
+    font-size: 45px;
+    text-align: center;
+    padding: 45px;
+}
+.cont1Voce{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.pcont1{
+    color: #b3c0ce;
+    text-align: center;
+    font-size: 35px;
+}
