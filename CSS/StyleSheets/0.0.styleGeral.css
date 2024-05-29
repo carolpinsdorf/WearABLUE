@@ -13,7 +13,7 @@
 }
 #textoColorido{
     color: #317588;
-    font-weight: 400;
+    font-weight: 500;
 }
 body{
     min-height: 100vh;
@@ -30,7 +30,6 @@ header{
     text-align: center;
     color: #b3c0ce;
     font-size: 10px;
-    font-weight: 150;
     padding: 5px;
 }
 
@@ -48,7 +47,7 @@ nav ul{
     width: 90%;
 }
 nav ul li h2{
-    font-weight: 300;
+    font-weight: 400;
     color: #b3c0ce;
     padding: 30px 0 0 0;
     text-align: center;
@@ -63,7 +62,7 @@ nav ul li h2{
     font-weight: 100;
 }
 nav ul li h2:hover{
-    color: #317588;
+    color: #33b2d5;
     font-weight: 550;
 }
 .logoWearablue{
