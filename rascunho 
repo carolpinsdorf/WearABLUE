@@ -1,11 +1,32 @@
-<div class="contentIndex">
-            <div class="paragrafo">
-                <p id="pHome">Maximize seu tempo com a GAID: <br> uma solução para motoristas e mecânicos</p>
+
+
+<div class="contFacaVc">
+    <article>
+        <div class="art">
+            <div class="imgArt">
+                <img src="" width="200px" alt="">
             </div>
-    
-            <div class="botaoSaibaMais">
-                <a href="paginas/1.CarDiag.html"> <h3>Saiba mais</h3> </a>
+            <div class="tituloArt">
+                <h4> Manchete </h4>
+                <div class="botaoSaibaMais">
+                    <a href= "" target="_blank"> Conte-me mais </a>
+                </div>
             </div>
         </div>
+    </article>
+    <article>
+        <div class="art">
+            <div class="imgArt">
+                <img src="" width="200px" alt="">
+            </div>
+            <div class="tituloArt">
+                <h4> Manchete </h4>
+                <div class="botaoSaibaMais">
+                    <a href= "" target="_blank"> Conte-me mais </a>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
 
         

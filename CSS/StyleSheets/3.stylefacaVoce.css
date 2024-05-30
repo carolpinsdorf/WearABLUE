@@ -18,3 +18,49 @@
     text-align: center;
     font-size: 35px;
 }
+.contFacaVc{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    align-items: center;
+}
+.art{
+    padding: 2%;
+    color: #317588;
+    display: flex;
+    font-size: 25px;
+}
+.imgArt{
+    border: solid 5px #b3c0ce;
+    width: fit-content;
+    padding:  18px 16px 15px 18px;
+}
+.tituloArt{
+    padding: 5% 20px;
+}
+.tituloArt h4{
+    font-weight: 500;
+}
+.botaoSaibaMais{
+    background-color: #3468905c;
+    width:fit-content;
+    padding: 10px 8px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10%;
+}
+.botaoSaibaMais:hover{
+    background-color: #3175887e;
+    font-weight: 300;
+}
+.botaoSaibaMais a:hover{
+    color: #317588;
+    font-weight: 400;
+}
+.botaoSaibaMais a{
+    font-size: 20px;
+    text-align: center;
+    color: #b3c0ce;
+}
