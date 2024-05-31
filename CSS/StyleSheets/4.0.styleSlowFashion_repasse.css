@@ -51,8 +51,10 @@
 .item2cont2{
     margin-right: 15%;
 }
-
-/*                                      MEDIA QUERIES                                       */
+.cont2e-comm img:hover{
+    width: 60%;
+}
+/*                                      MEDIA QUERIES BANNER                                    */
 @media (max-width: 795px){
     .cont1e-comm{
         flex-direction: column;
@@ -69,7 +71,7 @@
     }
 }
 
-/*                          GRID E-COMMERCE                             */
+/*                                                    GRID E-COMMERCE                             */
 .cont2e-comm{
     padding: 40px;
     display: grid;
@@ -123,7 +125,7 @@
     border: solid 5px #b3c0ce;
     padding: 20px;
 }
-/*                              MEDIA QUERIES                   */
+/*                                         MEDIA QUERIES  GRID                                 */
 @media (max-width: 1362px){
     .cont2e-comm img{
         width: 100px;

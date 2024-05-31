@@ -1,0 +1,82 @@
+
+
+nav{
+    align-items: center;
+}
+.botaoVoltar{
+    background-color: #3468905c;
+    width:fit-content;
+    height: fit-content;
+    padding: 40px 10px ;
+    border-radius: 100px;
+    display: flex;
+    margin: 2%;
+}
+.botaoVoltar:hover{
+    background-color: #3175887e;
+    font-weight: 300;
+}
+.botaoVoltar a:hover{
+    color: #317588;
+    font-weight: 400;
+}
+.botaoVoltar a{
+    font-size: 20px;
+    text-align: center;
+    color: #b3c0ce;
+}
+.bannerCad{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    margin: 5%;
+}
+.bannerCad h2{
+    text-align: center;
+    color: #b3c0ce;
+    font-size: 45px;
+}
+.bannerCad p{
+    color: #b3c0ce;
+    margin: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*                      MEDIA QUERY BANNER                          */
+@media (max-width: 850px){
+    .bannerCad img{
+        width: 150px;
+    }
+    .bannerCad h2{
+        font-size: 30px;
+    }
+    .bannerCad p{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 570px){
+    nav img{
+        width: 100px;
+    }
+    .botaoVoltar a{
+        font-size: 15px;
+    }
+    .botaoVoltar{
+        padding: 30px 10px;
+    }
+    .bannerCad{
+        flex-direction: column;
+    }
+    .bannerCad img{
+        width: 130px;
+    }
+    .bannerCad h2{
+        font-size: 30px;
+    }
+    .bannerCad p{
+        font-size: 20px;
+    }
+}
