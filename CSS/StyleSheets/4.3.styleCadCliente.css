@@ -80,3 +80,98 @@ nav{
         font-size: 20px;
     }
 }
+/*              FORMULÁRIO                   */
+.cadCliente-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.LogoCadCliente {
+    display: flex;
+    margin: 0 1%;
+}
+  #h2CadCliente {
+    font-size: 45px;
+}
+label {
+    font-size: 25px;
+    color: #b3c0ce;
+    padding: 15px;
+    font-weight: 400;
+}
+input {
+    background-color: #3ba8e781;
+    font-size: 20px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 8px;
+    color: #021c47;
+    font-weight: 300;
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+.elementoCadCliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+#h3CadCliente {
+    color: #b3c0ce;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+}
+.botaoCadastrar:hover {
+    background-color: #3ba8e788;
+}
+.botaoCadastrar {
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #3ba8e7;
+    width: fit-content;
+    border-radius: 10px;
+    color: #021c47;
+    padding: 5px 15px;
+    border: #3ba8e7;
+}
+.pBotaoCadastrar a {
+    font-size: 20px;
+    color: #021c47;
+    font-weight: 300;
+    text-align: center;
+}
+.pBotaoCadastrar a:hover {
+    color: #b3c0ce;
+}
+/*              MEDIA QUERY FORMULARIO                  */
+
+@media (max-width: 576px) {
+    input {
+      font-size: 20px;
+      width: 300px;
+    }
+    label{
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    input {
+      width: 80%;
+      font-size: 14px;
+    }
+}
+@media (max-width: 258px) {
+    input {
+      width: 70%;
+      font-size: 12px;
+    }
+}
+  
