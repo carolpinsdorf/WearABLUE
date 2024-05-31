@@ -5,6 +5,7 @@
 .cont1e-comm{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .item1cont1{
     width: 50%;
@@ -50,6 +51,24 @@
 .item2cont2{
     margin-right: 15%;
 }
+
+/*                                      MEDIA QUERIES                                       */
+@media (max-width: 795px){
+    .cont1e-comm{
+        flex-direction: column;
+        margin: auto;
+    }
+    .item1cont1{
+        margin: auto;
+    }
+    .item1cont1 p, .item1cont1 h2{
+        text-align: center;
+    }
+    .item2cont2{
+        margin: 15% auto;
+    }
+}
+
 /*                          GRID E-COMMERCE                             */
 .cont2e-comm{
     padding: 40px;
@@ -104,19 +123,85 @@
     border: solid 5px #b3c0ce;
     padding: 20px;
 }
-/*                                      MEDIA QUERIES                                       */
-@media (max-width: 795px){
-    .cont1e-comm{
-        flex-direction: column;
-        margin: auto;
+/*                              MEDIA QUERIES                   */
+@media (max-width: 1362px){
+    .cont2e-comm img{
+        width: 100px;
     }
-    .item1cont1{
-        margin: auto;
+    .cont2e-comm h4{
+        font-size: 20px;
     }
-    .item1cont1 p, .item1cont1 h2{
-        text-align: center;
+    .cont2e-comm p{
+        font-size: 15px;
+    }    
+}
+@media (max-width: 800px) {
+    .cont2e-comm{
+        padding: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        grid-template-areas: 
+        'titulocont2 titulocont2 titulocont2'
+        'prod1 prod2 prod3 '
+        'prod4 prod5 prod6'
+        'prod7 prod8 prod9'
+        'prod10 prod11 prod12'
+        'prod13 prod14 prod15'
+        'prod16 blank blank'
+        ;
     }
-    .item2cont2{
-        margin: 15% auto;
+    .titulocont2{grid-area: titulocont2;}
+    .prod1{grid-area: prod1;}
+    .prod2{grid-area: prod2;}
+    .prod3{grid-area: prod3;}
+    .prod4{grid-area: prod4;}
+    .prod5{grid-area: prod5;}
+    .prod6{grid-area: prod6;}
+    .prod7{grid-area: prod7;}
+    .prod8{grid-area: prod8;}
+    .prod9{grid-area: prod9;}
+    .prod10{grid-area: prod10;}
+    .prod11{grid-area: prod11;}
+    .prod12{grid-area: prod12;}
+    .prod13{grid-area: prod13;}
+    .prod14{grid-area: prod14;}
+    .prod15{grid-area: prod15;}
+    .prod16{grid-area: prod16;}
+}
+@media (max-width: 600px) {
+    .cont2e-comm{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-template-areas: 
+        'titulocont2 titulocont2'
+        'prod1 prod2'
+        'prod3 prod4'
+        'prod5 prod6'
+        'prod7 prod8'
+        'prod9 prod10'
+        'prod11 prod12'
+        'prod13 prod14'
+        'prod15 prod16'
+        ;
     }
+    .titulocont2{grid-area: titulocont2;}
+    .prod1{grid-area: prod1;}
+    .prod2{grid-area: prod2;}
+    .prod3{grid-area: prod3;}
+    .prod4{grid-area: prod4;}
+    .prod5{grid-area: prod5;}
+    .prod6{grid-area: prod6;}
+    .prod7{grid-area: prod7;}
+    .prod8{grid-area: prod8;}
+    .prod9{grid-area: prod9;}
+    .prod10{grid-area: prod10;}
+    .prod11{grid-area: prod11;}
+    .prod12{grid-area: prod12;}
+    .prod13{grid-area: prod13;}
+    .prod14{grid-area: prod14;}
+    .prod15{grid-area: prod15;}
+    .prod16{grid-area: prod16;}
 }
