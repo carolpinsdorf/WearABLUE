@@ -32,13 +32,19 @@ header{
     font-size: 10px;
     padding: 5px;
 }
-
+.menuIcon-mobile{
+    display: none;
+}
+.menuMobile{
+    display: none;
+}
 nav{
     display: flex;
     align-items: space-around;
     justify-content: space-between;
     height: 160px;
 }
+
 nav ul{
     height: 80px;
     display: flex;
@@ -49,9 +55,8 @@ nav ul{
 nav ul li h2{
     font-weight: 400;
     color: #b3c0ce;
-    padding: 30px 0 0 0;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 #h2Suporte{
     font-weight: 550;
@@ -69,6 +74,10 @@ nav ul li h2:hover{
     padding: 15px;
     display: flex;
     align-items: center;
+    width: fit-content;
+}
+nav img{
+    width: 150px;
 }
 .logoGS{
     margin: auto;
@@ -80,4 +89,49 @@ footer{
     font-size: 20px;
     font-weight: 200;
     padding: 5px;
+}
+
+/*                  MEDIA QUERY NAV BAR                             */
+@media (max-width: 950px){
+    header h1, footer{
+        font-size: 8px;
+    }
+    nav ul li h2{
+        font-size: 15px;
+        margin-top: 45px;
+    }
+    nav img{
+        width: 100px;
+    }
+    nav{
+        height: 110px;
+    }
+   
+}
+/*              MEDIA QUERY MENU DROP DOWN              */
+@media screen  and (max-width: 600px){
+    .nav-item{
+        display: none;
+    }
+    .menuIcon-mobile{
+        display: flex;
+        margin-right: 5%;
+    }
+    .menuIcon-mobile img{
+        width: 50px;
+    }
+    button{
+        background-color: rgba(0, 0, 0, 0);
+        border: rgba(0, 0, 0, 0);
+        cursor: pointer;
+    }
+    .menuMobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .open{
+        display: block;
+    }
+    
 }
