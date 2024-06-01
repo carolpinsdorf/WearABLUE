@@ -91,7 +91,7 @@ nav{
     display: flex;
     margin: 0 1%;
 }
-  #h2CadCliente {
+#h2CadCliente {
     font-size: 45px;
 }
 label {
