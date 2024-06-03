@@ -19,11 +19,11 @@
             <h1> <span id="textoColorido">SLOW FASHION</span> e <span id="textoColorido">MODA CIRCULAR</span> pelos oceanos </h1>
         </header>
         <!-- Barra de navegação no cabeçalho-->
-        <nav>
+        <nav class="navbar">
             <div class="logoWearablue">
-                <img src="../CSS/imagens/logoWearablue.png" width="150px" alt="Logo WEARABLUE">
+                <img src="../CSS/imagens/logoWearablue.png" alt="Logo WEARABLUE">
             </div>
-            <ul>
+            <ul class="nav-links-desktop">
                 <li>
                     <a href="../index.html"> <h2>Home</h2> </a>
                 </li>
@@ -46,6 +46,37 @@
                     <a href="6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
                 </li>
             </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="close" id="closeButton">
+                    <img src="../CSS/imagens/iconeX.png" alt="Icone para sair do Menu Drop Down">
+                </button>
+                <ul class="nav-links-mobile">
+                    <li>
+                        <a href="../index.html"> <h2>Home</h2> </a>
+                    </li>
+                    <li>
+                        <a href="1.nossaCausa.html"> <h2>Nossa <br> Causa</h2> </a>
+                    </li>
+                    <li>
+                        <a href="2.sobreNos.html"> <h2>Sobre <br> nós</h2> </a>
+                    </li>
+                    <li>
+                        <a href="3.facaVoce.html"> <h2>Faça <br> você</h2> </a>
+                    </li>
+                    <li>
+                        <a href="4.0.slowFashion_Repasse.html" target="_blank"> <h2>Slow Fashion <br> e Repasse</h2> </a>
+                    </li>
+                    <li> 
+                        <a href="5.0.palcoBrecho.html"><h2>Palco de <br> brechó</h2></a>
+                    </li>
+                    <li >
+                        <a href="6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="hamburguer" id="hamburguerButton">
+                <img src="../CSS/imagens/menuicon 19.19.56.png" alt="Menu Drop Down">
+            </button>
         </nav>
         <!-- AQUI COMEÇA O CONTEÚDO ESPECÍFICO DA PÁGINA -->
         <main>
@@ -120,5 +151,6 @@
     <footer>
         <p>Av Paulista, 1106 7º andar - Bela Vista, São Paulo -SP, 01311-000</p>
     </footer> 
+    <script src="../js/0.0scripGeral.js"></script>
 </body>
 </html>
