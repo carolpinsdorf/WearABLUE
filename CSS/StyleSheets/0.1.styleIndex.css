@@ -42,3 +42,27 @@ h3{
     text-align: center;
     padding: 2px 10px;
 }
+
+@media (max-width:950px) {
+    .contIndex p{
+        font-size: 25px;
+        margin-top: 10%;
+    }
+    .botaoSaibaMais h3{
+        font-size: 17px;
+    }
+    
+}
+@media (max-width: 414px){
+    .contIndex p{
+        font-size: 20px;
+        margin-top: 20%;
+    }
+    .botaoSaibaMais{
+        width: fit-content;
+        margin-top: 15%;
+    }
+    .botaoSaibaMais h3{
+        font-size:13px;
+    }
+}

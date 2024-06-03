@@ -41,8 +41,10 @@
 .contImagens{
     display: flex;
     flex-wrap: wrap;
-    min-width: 500px;
     margin-top: 10%;
+}
+.contImagens img{
+    width: 50%;
 }
 .cont4Causa{
     border-color: #317588;
@@ -83,4 +85,68 @@
 .cont6Causa{
     margin: auto ;
     width: fit-content;
+}
+
+@media (max-width: 950px){
+    .img1Causa img{
+        width: 300px;
+        margin-left: 15%;
+    }
+    .titulo1Causa h3{
+        font-size: 40px;
+    }
+    .cont2Causa{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width:600px){
+    .titulo1Causa h3{
+        font-size: 30px;
+        margin: 30px auto;
+    }
+
+    .cont1Causa{
+        flex-direction: column;
+        margin: auto;
+    }
+    .cont4Causa p{
+        font-size: 20px;
+    }
+    .cont4Causa{
+        flex-direction: column;
+    }
+
+    .img2Causa img{
+        width: 200px;
+    }
+}
+@media (max-width:500px){
+    .img1Causa img{
+        width: 150px;
+    }
+    .titulo1Causa h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 13px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .contImagens{
+        flex-direction: column;
+    }
+    .contImagens img{
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+    }
+    .pcont4, .cont5Causa{
+        width:80% ;
+    }
+    .cont6Causa img{
+        width: 150px;
+    }
 }
