@@ -32,11 +32,42 @@ header{
     font-size: 10px;
     padding: 5px;
 }
-.menuIcon-mobile{
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #193143;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     display: none;
 }
-.menuMobile{
+.nav-links-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburguer img{
+    width: 60px;
+}
+.hamburguer{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
     display: none;
+}
+.flex{
+    display: flex;
+}
+.close img{
+    width: 30px;
+    margin-top: 20%;
+}
+.close{
+    background-color: transparent;
+    border: transparent;
 }
 nav{
     display: flex;
@@ -76,8 +107,51 @@ nav ul li h2:hover{
     align-items: center;
     width: fit-content;
 }
-nav img{
+.logoWearablue img{
     width: 150px;
+}
+/*              MEDIA QUERY MENU DROP DOWN              */
+@media screen  and (max-width: 600px){
+    .nav-links-desktop{
+        display: none;
+    }
+    .hamburguer{
+        display: block;
+        margin-right: 5%;
+        width: fit-content;
+    }
+    .hamburguer img{
+        width: 40px;
+    }
+    nav ul li h2{
+        margin-top: 0;
+    }
+
+}
+/*                  MEDIA QUERY NAV BAR                             */
+@media (max-width: 950px){
+    .logoWearablue img{
+        width: 70px;
+    }
+    .logoWearablue{
+        width: fit-content;
+    }
+    header h1, footer p{
+        font-size: 8px;
+    }
+    nav ul li h2{
+        font-size: 13px;
+        margin-top: 45px;
+    }
+    nav img{
+        width: 100px;
+    }
+    nav{
+        height: 110px;
+    }
+    .logoGS img{
+        width: 100px;
+    }
 }
 .logoGS{
     margin: auto;
@@ -89,49 +163,4 @@ footer{
     font-size: 20px;
     font-weight: 200;
     padding: 5px;
-}
-
-/*                  MEDIA QUERY NAV BAR                             */
-@media (max-width: 950px){
-    header h1, footer{
-        font-size: 8px;
-    }
-    nav ul li h2{
-        font-size: 15px;
-        margin-top: 45px;
-    }
-    nav img{
-        width: 100px;
-    }
-    nav{
-        height: 110px;
-    }
-   
-}
-/*              MEDIA QUERY MENU DROP DOWN              */
-@media screen  and (max-width: 600px){
-    .nav-item{
-        display: none;
-    }
-    .menuIcon-mobile{
-        display: flex;
-        margin-right: 5%;
-    }
-    .menuIcon-mobile img{
-        width: 50px;
-    }
-    button{
-        background-color: rgba(0, 0, 0, 0);
-        border: rgba(0, 0, 0, 0);
-        cursor: pointer;
-    }
-    .menuMobile ul{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .open{
-        display: block;
-    }
-    
 }
