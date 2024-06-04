@@ -70,6 +70,11 @@
         margin: 15% auto;
     }
 }
+@media (max-width:950px){
+    .carrinho img{
+        width: 30px;
+    }
+}
 
 /*                                                    GRID E-COMMERCE                             */
 .cont2e-comm{
