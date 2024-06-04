@@ -1,0 +1,152 @@
+/* CORES:      AZUL 317588         BRANCO   b3c0ce */
+
+.cont1Causa, .cont3Causa{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: 10%;
+}
+.img1Causa{
+    width: fit-content;
+}
+.titulo1Causa{
+    width: 50%;
+    color: #b3c0ce;
+    font-size: 50px;
+}
+.cont2Causa{
+    padding: 15px;
+    margin: 10% auto;
+    width: 60%;
+    color: #b3c0ce;
+    text-align: center;
+    border: solid 5px #b3c0ce;
+    font-size: 25px;
+}
+.cont3Causa{
+    color: #b3c0ce;
+    flex-wrap: wrap;
+}
+.itemcont3{
+    width: 500px;
+    padding: 50px;
+    font-size: 25px;
+}
+.titulocont3 h4{
+    text-align: center;
+    padding: 5%;
+    color: #317588;
+    font-weight: 500;
+}
+.contImagens{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+.contImagens img{
+    width: 50%;
+}
+.cont4Causa{
+    border-color: #317588;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10%;
+}
+.cont4Causa p{
+    font-weight: 400;
+    color: #317588;
+}
+.pcont4{
+    width: 40%;
+    font-size: 25px;
+    text-align: center;
+    border: solid 5px #b3c0ce;
+    padding: 25px;
+}
+.img2Causa{
+    margin: 5%;
+}
+.cont5Causa{
+    color: #b3c0ce;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.itemcont5{
+    font-size: 25px;
+    margin-top: 10%;
+}
+.cont6Causa{
+    margin: auto ;
+    width: fit-content;
+}
+
+@media (max-width: 950px){
+    .img1Causa img{
+        width: 300px;
+        margin-left: 15%;
+    }
+    .titulo1Causa h3{
+        font-size: 40px;
+    }
+    .cont2Causa{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width:600px){
+    .titulo1Causa h3{
+        font-size: 30px;
+        margin: 30px auto;
+    }
+
+    .cont1Causa{
+        flex-direction: column;
+        margin: auto;
+    }
+    .cont4Causa p{
+        font-size: 20px;
+    }
+    .cont4Causa{
+        flex-direction: column;
+    }
+
+    .img2Causa img{
+        width: 200px;
+    }
+}
+@media (max-width:500px){
+    .img1Causa img{
+        width: 150px;
+    }
+    .titulo1Causa h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 13px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .contImagens{
+        flex-direction: column;
+    }
+    .contImagens img{
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+    }
+    .pcont4, .cont5Causa{
+        width:80% ;
+    }
+    .cont6Causa img{
+        width: 150px;
+    }
+}

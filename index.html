@@ -19,11 +19,11 @@
             <h1> <span id="textoColorido">SLOW FASHION</span> e <span id="textoColorido">MODA CIRCULAR</span> pelos oceanos </h1>
         </header>
         <!-- Barra de navegação no cabeçalho-->
-        <nav>
+        <nav class="navbar">
             <div class="logoWearablue">
-                <img src="css/imagens/logoWearablue.png" width="150px" alt="Logo WEARABLUE">
+                <img src="../CSS/imagens/logoWearablue.png" alt="Logo WEARABLUE">
             </div>
-            <ul>
+            <ul class="nav-links-desktop">
                 <li>
                     <a href="index.html"> <h2>Home</h2> </a>
                 </li>
@@ -37,7 +37,7 @@
                     <a href="paginas/3.facaVoce.html"> <h2>Faça <br> você</h2> </a>
                 </li>
                 <li>
-                    <a href="paginas/4.0.slowFashion_Repasse.html"> <h2>Slow Fashion <br> e Repasse</h2> </a>
+                    <a href="paginas/4.0.slowFashion_Repasse.html" target="_blank"> <h2>Slow Fashion <br> e Repasse</h2> </a>
                 </li>
                 <li>
                     <a href="paginas/5.0.palcoBrecho.html"><h2>Palco de <br> brechó</h2></a>
@@ -46,16 +46,58 @@
                     <a href="paginas/6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
                 </li>
             </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="close" id="closeButton">
+                    <img src="../CSS/imagens/iconeX.png" alt="Icone para sair do Menu Drop Down">
+                </button>
+                <ul class="nav-links-mobile">
+                    <li>
+                        <a href="index.html"> <h2>Home</h2> </a>
+                    </li>
+                    <li>
+                        <a href="paginas/1.nossaCausa.html"> <h2>Nossa <br> Causa</h2> </a>
+                    </li>
+                    <li>
+                        <a href="paginas/2.sobreNos.html"> <h2>Sobre <br> nós</h2> </a>
+                    </li>
+                    <li>
+                        <a href="paginas/3.facaVoce.html"> <h2>Faça <br> você</h2> </a>
+                    </li>
+                    <li>
+                        <a href="paginas/4.0.slowFashion_Repasse.html" target="_blank"> <h2>Slow Fashion <br> e Repasse</h2> </a>
+                    </li>
+                    <li>
+                        <a href="paginas/5.0.palcoBrecho.html"><h2>Palco de <br> brechó</h2></a>
+                    </li>
+                    <li>
+                        <a href="paginas/6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="hamburguer" id="hamburguerButton">
+                <img src="../CSS/imagens/menuicon 19.19.56.png" alt="Menu Drop Down">
+            </button>
         </nav>
         <!-- AQUI COMEÇA O CONTEÚDO ESPECÍFICO DA PÁGINA -->
-
-        
-    </div>   
-    <div class="logoGS">
-        <a href="https://www.fiap.com.br/graduacao/global-solution/?gad_source=1&gclid=CjwKCAjwgdayBhBQEiwAXhMxttnSxP3XkqlPou3w4rchkGsZfr9zfak9yPUcJpS8tT7lrCtsRQO84hoCeX8QAvD_BwE" target="blank"><img src="css/imagens/logoGS.png" width="180px" alt="Logo Global Solution"></a>
-    </div>
+        <main>
+            <div class="contIndex">
+                <div class="pIndex">
+                    <p>Na dança suave do slow fashion e moda circular, encontre uma <span id="textoColorido">sinfonia de sustentabilidade</span> , onde cada nota é um eco de <br><span id="textoColorido">ética, durabilidade e consciência.</span>  
+                    </p>
+                </div>
+                <div class="botaoSaibaMais">
+                    <a href="paginas/1.nossaCausa.html"> <h3>Quero saber mais</h3> </a>
+                </div>
+            </div>
+            
+        </div>   
+        <div class="logoGS">
+            <a href="https://www.fiap.com.br/graduacao/global-solution/?gad_source=1&gclid=CjwKCAjwgdayBhBQEiwAXhMxttnSxP3XkqlPou3w4rchkGsZfr9zfak9yPUcJpS8tT7lrCtsRQO84hoCeX8QAvD_BwE" target="blank"><img src="css/imagens/logoGS.png" width="180px" alt="Logo Global Solution"></a>
+        </div>
+        </main>
     <footer>
         <p>Av Paulista, 1106 7º andar - Bela Vista, São Paulo -SP, 01311-000</p>
     </footer> 
+    <script src="js/0.0scripGeral.js"></script>
 </body>
 </html>

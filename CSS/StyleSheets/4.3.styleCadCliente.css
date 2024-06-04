@@ -1,0 +1,207 @@
+
+
+nav{
+    align-items: center;
+}
+.botaoVoltar{
+    background-color: #3468905c;
+    width:fit-content;
+    height: fit-content;
+    padding: 40px 10px ;
+    border-radius: 100px;
+    display: flex;
+    margin: 2%;
+}
+.botaoVoltar:hover{
+    background-color: #3175887e;
+    font-weight: 300;
+}
+.botaoVoltar a:hover{
+    color: #317588;
+    font-weight: 400;
+}
+.botaoVoltar a{
+    font-size: 20px;
+    text-align: center;
+    color: #b3c0ce;
+}
+.bannerCad{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    margin: 5%;
+}
+.bannerCad h2{
+    text-align: center;
+    color: #b3c0ce;
+    font-size: 45px;
+}
+.bannerCad p{
+    color: #b3c0ce;
+    margin: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*                      MEDIA QUERY BANNER                          */
+@media (max-width: 950px){
+    .bannerCad img{
+        width: 150px;
+    }
+    .bannerCad h2{
+        font-size: 30px;
+    }
+    .bannerCad p{
+        font-size: 20px;
+    }
+    .logoWearablue img{
+        width: 100px;
+    }
+    .botaoVoltar{
+        width: 70px;
+        padding: 25px 8px;
+        
+    }
+    .botaoVoltar a{
+        margin-left: 4px;
+        padding: 0;
+        font-size: 12px;
+        text-align: center;
+        width: fit-content;
+    }
+    
+}
+@media (max-width: 570px){
+    nav img{
+        width: 100px;
+    }
+    .bannerCad{
+        flex-direction: column;
+    }
+    .bannerCad img{
+        width: 130px;
+    }
+    .bannerCad h2{
+        font-size: 30px;
+    }
+    .bannerCad p{
+        font-size: 20px;
+    }
+}
+/*              FORMULÁRIO                   */
+.cadCliente-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.LogoCadCliente {
+    display: flex;
+    margin: 0 1%;
+}
+#h2CadCliente {
+    font-size: 45px;
+}
+label {
+    font-size: 25px;
+    color: #b3c0ce;
+    padding: 15px;
+    font-weight: 400;
+}
+input {
+    background-color: #3ba8e781;
+    font-size: 20px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 8px;
+    color: #021c47;
+    font-weight: 300;
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+.elementoCadCliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+#h3CadCliente {
+    color: #b3c0ce;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+}
+.inputEnviar {
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #3ba8e7;
+    color: #021c47;
+    padding: 5px;
+    border: #3ba8e7;
+}
+.inputEnviar:hover {
+    background-color: #3ba8e788;
+    color: #b3c0ce;
+}
+.botaoEnviar {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+.botao{
+    padding: 30px;
+    cursor: pointer;
+    border: solid 3px #b3c0ce;
+    margin: 2% 5%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.botao:hover{
+    background-color: #31688894;
+}
+.botao a{
+    color:#3ba8e7;
+    font-size: 20px;
+    font-weight: 400;
+}
+/*              MEDIA QUERY FORMULARIO                  */
+
+@media (max-width: 576px) {
+    input {
+      font-size: 20px;
+      width: 300px;
+    }
+    label{
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    input {
+      width: 80%;
+      font-size: 14px;
+    }
+}
+@media (max-width: 258px) {
+    input {
+      width: 70%;
+      font-size: 12px;
+    }
+}
+@media (max-width:410px){
+    .botoes{
+        flex-direction: column;
+    }
+}

@@ -19,11 +19,11 @@
             <h1> <span id="textoColorido">SLOW FASHION</span> e <span id="textoColorido">MODA CIRCULAR</span> pelos oceanos </h1>
         </header>
         <!-- Barra de navegação no cabeçalho-->
-        <nav>
+        <nav class="navbar">
             <div class="logoWearablue">
-                <img src="../CSS/imagens/logoWearablue.png" width="150px" alt="Logo WEARABLUE">
+                <img src="../CSS/imagens/logoWearablue.png" alt="Logo WEARABLUE">
             </div>
-            <ul>
+            <ul class="nav-links-desktop">
                 <li>
                     <a href="../index.html"> <h2>Home</h2> </a>
                 </li>
@@ -46,9 +46,115 @@
                     <a href="6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
                 </li>
             </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="close" id="closeButton">
+                    <img src="../CSS/imagens/iconeX.png" alt="Icone para sair do Menu Drop Down">
+                </button>
+                <ul class="nav-links-mobile">
+                    <li>
+                        <a href="../index.html"> <h2>Home</h2> </a>
+                    </li>
+                    <li>
+                        <a href="1.nossaCausa.html"> <h2>Nossa <br> Causa</h2> </a>
+                    </li>
+                    <li>
+                        <a href="2.sobreNos.html"> <h2>Sobre <br> nós</h2> </a>
+                    </li>
+                    <li>
+                        <a href="3.facaVoce.html"> <h2>Faça <br> você</h2> </a>
+                    </li>
+                    <li>
+                        <a href="4.0.slowFashion_Repasse.html"> <h2>Slow Fashion <br> e Repasse</h2> </a>
+                    </li>
+                    <li>
+                        <a href="5.0.palcoBrecho.html"><h2>Palco de <br> brechó</h2></a>
+                    </li>
+                    <li >
+                        <a href="6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="hamburguer" id="hamburguerButton">
+                <img src="../CSS/imagens/menuicon 19.19.56.png" alt="Menu Drop Down">
+            </button>
         </nav>
         <!-- AQUI COMEÇA O CONTEÚDO ESPECÍFICO DA PÁGINA -->
-
+        <main>
+            <section>
+                <div class="cont1e-comm">
+                    <div class="item2cont2">
+                        <img src="../CSS/imagens/iconeBrecho.png" alt="Arte com as palavras fashion e style em circulo com um cabide no meio">
+                    </div>
+                    <div class="item1cont1">
+                        <h2>Faça seu show!</h2>
+                        <p>Consume nos melhores brechós de SP. <br> Quer fazer parte dessa comunidade? Anuncie seu empreendimento no <span id="textoColorido">PALCO DE BRECHÓS</span></p>
+                        <div class="botaoAnunciar">
+                            <a href= "4.1.loginCliente.html"> Quero anunciar </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="cont2e-comm">
+                    <div class="titulocont2">
+                        <h3> Os <span id="textoColorido">melhores</span> para você</h3>
+                    </div>
+                    <div class="prod1">
+                        <img src="../CSS/imagens/brechos/brechoCuraModa.jpeg" alt="">
+                        <h4>Brechó CuraModa</h4>
+                        <p>Para todos os tipos e gostos. Trabalhamos com peças de qualidade de vestuário infantil e adulto masculino e feminino</p>
+                        <p>Tipo: <span id="textoColorido">Geral</span></p>
+                        <p>Qualidade: <span id="textoColorido">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+                        <p>Localização: <span id="textoColorido">Vila Mariana</span></p>
+                        </p>
+                    </div>
+                    <div class="prod2">
+                        <img src="../CSS/imagens/brechos/brechoRebajas.png" alt="">
+                        <h4>Brechós Rebajas</h4>
+                        <p>De tradição argentina, especializado em roupas de frio e peças de couro</p>
+                        <p>Tipo: <span id="textoColorido">Roupas de Frio</span></p>
+                        <p>Qualidade: <span id="textoColorido">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                        <p>Localização: <span id="textoColorido">Cerqueira César</span></p>
+                        </p>
+                    </div>
+                    <div class="prod3">
+                        <img src="../CSS/imagens/brechos/brechoRevestir.jpeg" alt="">
+                        <h4>Brechó ReVestir</h4>
+                        <p>Trabalhamos com alta costura e peças de altíssimo padrão. Temos muitas peças autorais re-estilizadas</p>
+                        <p>Tipo: <span id="textoColorido">Alto Padrão</span></p>
+                        <p>Qualidade: <span id="textoColorido">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+                        <p>Localização: <span id="textoColorido">Tatuapé</span></p>
+                        </p>
+                    </div>
+                    <div class="prod4">
+                        <img src="../CSS/imagens/brechos/brechoGrifeStock.jpeg" alt="">
+                        <h4>Grifes Stock</h4>
+                        <p>Trabalhamos com artigos de luxo restaurados em excelente estado</p>
+                        <p>Tipo: <span id="textoColorido">Luxo</span></p>
+                        <p><span id="textoColorido">Upcycling</span></p>
+                        <p>Qualidade: <span id="textoColorido">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+                        <p>Localização: <span id="textoColorido">Vila Nova Conceição</span></p>
+                        </p>
+                    </div>
+                    <div class="prod5">
+                        <img src="../CSS/imagens/brechos/brechoDaSanta.jpeg" alt="">
+                        <h4>Brechó da Santa</h4>
+                        <p>Brechó solidário, temos todo tipo de vestuário. Aceitamos doações. Todo lucro arrecadado é destinado para trabalho voluntário</p>
+                        <p>Tipo: <span id="textoColorido">Solidário</span></p>
+                        <p>Qualidade: <span id="textoColorido">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+                        <p>Localização: <span id="textoColorido">Largo São Francisco</span></p>
+                        </p>
+                    </div>
+                    <div class="prod6">
+                        <img src="../CSS/imagens/brechos/brechoColmeia.jpeg" alt="">
+                        <h4>Brechó Colmeia</h4>
+                        <p>Brechó raiz, venha pronto para garimpar. VENDEMOS POR KILO a R$10,00</p>
+                        <p>Tipo: <span id="textoColorido">Raiz</span></p>
+                        <p>Qualidade: <span id="textoColorido">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+                        <p>Localização: <span id="textoColorido">Largo do Arouche</span></p>
+                        </p>
+                    </div>
+        </main>
         
     </div>   
     <div class="logoGS">
@@ -57,5 +163,6 @@
     <footer>
         <p>Av Paulista, 1106 7º andar - Bela Vista, São Paulo -SP, 01311-000</p>
     </footer> 
+    <script src="../js/0.0scripGeral.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
-/* CORES:      AZUL 317588         BRANCO   b3c0ce */
 
+/* CORES:      AZUL 317588         BRANCO   b3c0ce */
 
 .h3Valores{
     margin-top: 5%;
@@ -23,10 +23,9 @@
     color: #317588;
     font-weight: 400;
 }
-
 #p1Valores, #p4Valores{
     font-weight: 400;
-    width: 100%;
+    width: 80%;
     padding: 20px;
     text-align: center;
 }
@@ -56,6 +55,9 @@
     flex-wrap: wrap;
     padding: 25px;
 }
+.empresaMembros img{
+    width: 400px;
+}
 .textoRafa, .textoCarol, .textoVictor {
     color: white; 
     font-size: 20px;
@@ -83,4 +85,21 @@ p a:hover, .repo a:hover{
 .logoGS{
     margin: auto;
     width: fit-content;
+}
+@media (max-width: 590px){
+    .h3Valores{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 0;
+    }
+    p{
+        font-size: 15px ;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .empresaMembros img{
+        width: 200px;
+        padding: 20px 10px;
+    }
 }

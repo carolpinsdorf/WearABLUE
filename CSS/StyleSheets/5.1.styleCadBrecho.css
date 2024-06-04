@@ -1,0 +1,128 @@
+/*              FORMULARIO                  */
+
+label {
+    font-size: 25px;
+    color: #b3c0ce;
+    padding: 15px;
+    font-weight: 400;
+}
+input, select{
+    background-color: #3ba8e781;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 8px;
+    color: #021c47;
+    font-weight: 400;
+    width: 90%;
+    height: 40px;
+}
+input:hover, select:hover{
+    border: solid 2px #317588
+}
+.form-group, .groupDescricao{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+h3{
+    color: #b3c0ce;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    border: solid 5px #b3c0ce;
+    width: fit-content;
+    margin: 5% auto;
+}
+#descricao{
+    height: 60px;
+    width: 90%;
+}
+#Preço{
+    width: 80px;
+}
+.formCadPeca{
+    margin:auto;
+    width: fit-content;
+    margin-top: 5%;
+}
+.inputEnviar {
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #3ba8e7;
+    color: #021c47;
+    padding: 5px;
+    border: #3ba8e7;
+    width: fit-content;
+}
+.inputEnviar:hover {
+    background-color: #3ba8e788;
+    color: #b3c0ce;
+}
+.botaoEnviar {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.form-group_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#imgPeca{
+    margin-bottom: 5%;
+}
+.place_holder{
+    min-width: 300px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: fit-content;
+    border: solid 2px #b3c0ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#b3c0ce;
+    background-color: #1d679275;
+}
+
+/*       MEDIA QUERY FORMULÁRIO     */
+@media (max-width:950px){
+    h3{
+        font-size: 25px;
+        padding: 20px;
+        margin: 5% auto;
+    }
+    label, input{
+        font-size: 20px;
+    }
+    input, textarea{
+        width: 80%;
+    }
+}
+@media (max-width: 500px){
+    h3{
+        font-size: 20px;
+    }
+    label, input, .form-groupDescricao, select {
+        font-size: 15px;
+        width: 80%;
+    }
+    .form-group, .form-groupDescricao{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 390px){
+    .place_holder{
+        width: 200px;
+        height: 100px;
+    }
+    .form-group_img input{
+        width: 200px;
+    }
+}
+

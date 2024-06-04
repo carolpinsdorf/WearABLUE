@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Brechó</title>
+    <!-- Coloca o logo na janela do navegador do lado do title-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../css/imagens/favicon_io-4/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../css/imagens/favicon_io-4/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../css/imagens/favicon_io-4/favicon-16x16.png">
+    <!-- Links do CSS -->
+    <link rel="stylesheet" href="../CSS/StyleSheets/0.0.styleGeral.css">
+    <link rel="stylesheet" href="../CSS/StyleSheets/5.1.styleCadBrecho.css">
+</head>
+<body>
+    <div class="contentPricipal">
+        <header>
+            <h1> <span id="textoColorido">SLOW FASHION</span> e <span id="textoColorido">MODA CIRCULAR</span> pelos oceanos </h1>
+        </header>
+        <!-- Barra de navegação no cabeçalho-->
+        <nav class="navbar">
+            <div class="logoWearablue">
+                <img src="../CSS/imagens/logoWearablue.png" alt="Logo WEARABLUE">
+            </div>
+            <ul class="nav-links-desktop">
+                <li>
+                    <a href="../index.html"> <h2>Home</h2> </a>
+                </li>
+                <li>
+                    <a href="1.nossaCausa.html"> <h2>Nossa <br> Causa</h2> </a>
+                </li>
+                <li>
+                    <a href="2.sobreNos.html"> <h2>Sobre <br> nós</h2> </a>
+                </li>
+                <li>
+                    <a href="3.facaVoce.html"> <h2>Faça <br> você</h2> </a>
+                </li>
+                <li>
+                    <a href="4.0.slowFashion_Repasse.html" target="_blank"> <h2>Slow Fashion <br> e Repasse</h2> </a>
+                </li>
+                <li>
+                    <a href="5.0.palcoBrecho.html"><h2>Palco de <br> brechó</h2></a>
+                </li>
+                <li>
+                    <a href="6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
+                </li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="close" id="closeButton">
+                    <img src="../CSS/imagens/iconeX.png" alt="Icone para sair do Menu Drop Down">
+                </button>
+                <ul class="nav-links-mobile">
+                    <li>
+                        <a href="../index.html"> <h2>Home</h2> </a>
+                    </li>
+                    <li>
+                        <a href="1.nossaCausa.html"> <h2>Nossa <br> Causa</h2> </a>
+                    </li>
+                    <li>
+                        <a href="2.sobreNos.html"> <h2>Sobre <br> nós</h2> </a>
+                    </li>
+                    <li>
+                        <a href="3.facaVoce.html"> <h2>Faça <br> você</h2> </a>
+                    </li>
+                    <li>
+                        <a href="4.0.slowFashion_Repasse.html" target="_blank"> <h2>Slow Fashion <br> e Repasse</h2> </a>
+                    </li>
+                    <li> 
+                        <a href="5.0.palcoBrecho.html"><h2>Palco de <br> brechó</h2></a>
+                    </li>
+                    <li >
+                        <a href="6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="hamburguer" id="hamburguerButton">
+                <img src="../CSS/imagens/menuicon 19.19.56.png" alt="Menu Drop Down">
+            </button>
+        </nav>
+        <!-- AQUI COMEÇA O CONTEÚDO ESPECÍFICO DA PÁGINA -->
+        <main>
+            <section>
+                <h3>Cadastre seu Brechó</h3>
+                <div class="formCadPeca">
+                    <form action="cadastro_brecho" method="get">
+                        <div class="form-group">
+                            <label for="nameLoja">Nome da loja: </label>
+                            <input type="text" name="nameLoja" id="nameLoja" required>
+                        </div>
+                        <div class="form-groupDescricao">
+                            <label for="descricao">Descrição: </label>
+                            <input type="text" name="desricao" id="descricao" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipo">Tipo: </label>
+                            <select name="tipo" id="tipo" required>Tamanho:
+                                <option value="#">--Selecione--</option>
+                                <option value="luxo">Luxo</option>
+                                <option value="altoPadrao">Alto Padrão</option>
+                                <option value="raiz">Raiz</option>
+                                <option value="solidario">Solidário</option>
+                                <option value="Geral">Geral</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="qualidade">Qualidade: </label>
+                            <input type="number" min="1" max="5" name="qualidade" id="qualidade" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Preço">Localização: </label>
+                            <input type="text" name="Localização" id="Localização" required>
+                        </div>
+                        <div class="form-group_img">
+                            <label for="imgPeca">Imagem do Brechó:</label>
+                            <input type="file" accept="image*/" name="imgPeca" id="imgPeca">
+                            <span class="place_holder"></span>
+                        </div>
+                        <div class="botaoEnviar">
+                            <input class="inputEnviar" type="submit" value="Cadastrar">                
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="logoGS">
+        <a href="https://www.fiap.com.br/graduacao/global-solution/?gad_source=1&gclid=CjwKCAjwgdayBhBQEiwAXhMxttnSxP3XkqlPou3w4rchkGsZfr9zfak9yPUcJpS8tT7lrCtsRQO84hoCeX8QAvD_BwE" target="blank"><img src="../CSS/imagens/logoGS.png" width="180px" alt="Logo Global Solution"></a>
+    </div>
+    <footer>
+        <p>Av Paulista, 1106 7º andar - Bela Vista, São Paulo -SP, 01311-000</p>
+    </footer> 
+    <script src="../js/4.4.scriptCadPeca.js"></script>
+</body>
+</html>

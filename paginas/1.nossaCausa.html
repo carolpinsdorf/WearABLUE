@@ -19,11 +19,11 @@
             <h1> <span id="textoColorido">SLOW FASHION</span> e <span id="textoColorido">MODA CIRCULAR</span> pelos oceanos </h1>
         </header>
         <!-- Barra de navegação no cabeçalho-->
-        <nav>
+        <nav class="navbar">
             <div class="logoWearablue">
-                <img src="../CSS/imagens/logoWearablue.png" width="150px" alt="Logo WEARABLUE">
+                <img src="../CSS/imagens/logoWearablue.png" alt="Logo WEARABLUE">
             </div>
-            <ul>
+            <ul class="nav-links-desktop">
                 <li>
                     <a href="../index.html"> <h2>Home</h2> </a>
                 </li>
@@ -34,10 +34,10 @@
                     <a href="2.sobreNos.html"> <h2>Sobre <br> nós</h2> </a>
                 </li>
                 <li>
-                    <a href=".facaVoce.html"> <h2>Faça <br> você</h2> </a>
+                    <a href="3.facaVoce.html"> <h2>Faça <br> você</h2> </a>
                 </li>
                 <li>
-                    <a href="4.0.slowFashion_Repasse.html"> <h2>Slow Fashion <br> e Repasse</h2> </a>
+                    <a href="4.0.slowFashion_Repasse.html" target="_blank"> <h2>Slow Fashion <br> e Repasse</h2> </a>
                 </li>
                 <li>
                     <a href="5.0.palcoBrecho.html"><h2>Palco de <br> brechó</h2></a>
@@ -46,10 +46,104 @@
                     <a href="6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
                 </li>
             </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="close" id="closeButton">
+                    <img src="../CSS/imagens/iconeX.png" alt="Icone para sair do Menu Drop Down">
+                </button>
+                <ul class="nav-links-mobile">
+                    <li>
+                        <a href="../index.html"> <h2>Home</h2> </a>
+                    </li>
+                    <li>
+                        <a href="1.nossaCausa.html"> <h2>Nossa <br> Causa</h2> </a>
+                    </li>
+                    <li>
+                        <a href="2.sobreNos.html"> <h2>Sobre <br> nós</h2> </a>
+                    </li>
+                    <li>
+                        <a href="3.facaVoce.html"> <h2>Faça <br> você</h2> </a>
+                    </li>
+                    <li>
+                        <a href="4.0.slowFashion_Repasse.html" target="_blank"> <h2>Slow Fashion <br> e Repasse</h2> </a>
+                    </li>
+                    <li> 
+                        <a href="5.0.palcoBrecho.html"><h2>Palco de <br> brechó</h2></a>
+                    </li>
+                    <li >
+                        <a href="6.suporte.html"><h2 id="h2Suporte">Suporte</h2></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="hamburguer" id="hamburguerButton">
+                <img src="../CSS/imagens/menuicon 19.19.56.png" alt="Menu Drop Down">
+            </button>
         </nav>
         <!-- AQUI COMEÇA O CONTEÚDO ESPECÍFICO DA PÁGINA -->
-
-        
+        <main>
+            <section>
+                <div class="cont1Causa">
+                    <div class="img1Causa">
+                        <img src="../CSS/imagens/iconArara.png" width="350px" alt="Desenho de uma arara de roupas com jaquetas e chapéus pendurados">
+                    </div>
+                    <div class="titulo1Causa">
+                        <h3>O que tem na <span id="textoColorido">sua roupa</span> que afeta os oceanos?</h3>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="cont2Causa">
+                    <p>A <span id="textoColorido">produção de roupas é uma das indústrias mais impactantes do mundo</span> , superada apenas pelas indústrias automotiva e tecnológica. Contudo, essa indústria é responsável por uma quantidade significativa de poluição, tanto nos oceanos quanto na atmosfera.</p>
+                </div>
+            </section>
+            <section>
+                <div class="cont3Causa">
+                    <div class="itemcont3">
+                        <div class="titulocont3">
+                            <h4>POLUIÇÃO POR RESÍDUOS TÊXTEIS</h4>
+                        </div>
+                        <p>Anualmente, roupas representam até <span id="textoColorido">80% de todos os têxteis que entram nos oceanos</span> . Uma simples camiseta pode levar mais de 700 anos para se biodegradar em água e solo combinados. Os têxteis são responsáveis por <span id="textoColorido">34,8% da poluição global por microplásticos</span> , sendo a maior fonte de microplásticos primários e secundários.
+                        </p>
+                    </div>
+                    <div class="itemcont3">
+                        <div class="titulocont3">
+                            <h4>O QUE MODA TEM A VER COM MICROPLÁSTICOS?</h4>
+                        </div>
+                        <p>A indústria da moda é uma das <span id="textoColorido">principais fontes de microplásticos nos oceanos</span> . Roupas sintéticas, ao serem fabricadas, lavadas, usadas e descartadas, liberam microfibras plásticas no meio ambiente. Essas microfibras representam riscos para a saúde animal e humana. </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="contImagens">
+                    <img src="../CSS/imagens/imagemGana1.jpeg"  alt="Foto de um menino negro andando por cima de pilhas de tecido numa praia em Ghana">
+                    <img src="../CSS/imagens/imgemGana2.jpeg" alt="Foto visão aérea de uma praia em que areia está tomada por tecido">
+                </div>
+            </section>
+            <section>
+                <div class="cont4Causa">
+                    <div class="pcont4">
+                        <p>Estes nos oceanos são um grande problema ambiental porque são ingeridos por animais marinhos, causando bloqueios digestivos e até a morte. Eles também adsorvem poluentes, que entram na cadeia alimentar e afetam a saúde humana. Além disso, os microplásticos prejudicam habitats marinhos por conta da dificuldade de ser removido</p>
+                    </div>
+                    <div class="img2Causa">
+                        <img src="../CSS/imagens/iconPeixes.png" width="400px" alt="Desenho de cardume de peixes">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="cont5Causa">
+                    <div class="itemcont5">
+                        <p> A <span id="textoColorido">demanda ostensiva por novas tendências</span>  resulta em grandes quantidades de resíduos têxteis, além de aumentar a pressão sobre os recursos naturais e contribuir para a poluição dos oceanos. É necessário a <span id="textoColorido">reduzir sua introdução no ambiente marinho </span> através do consumo sustentável e consciente com ênfase na moda circular e slow fashion.</p>
+                    </div>
+                    <div class="itemcont5">
+                        <p> Faça parte da iniciativa WearAblue, <span id="textoColorido">mais uma solução GAID</span> </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="cont6Causa">
+                    <img src="../CSS/imagens/logoFeat.png" width="300px" alt="Logo WearABLUE e GAID">
+                </div>
+            </section>
+        </main>
     </div>   
     <div class="logoGS">
         <a href="https://www.fiap.com.br/graduacao/global-solution/?gad_source=1&gclid=CjwKCAjwgdayBhBQEiwAXhMxttnSxP3XkqlPou3w4rchkGsZfr9zfak9yPUcJpS8tT7lrCtsRQO84hoCeX8QAvD_BwE" target="blank"><img src="../CSS/imagens/logoGS.png" width="180px" alt="Logo Global Solution"></a>
@@ -57,5 +151,6 @@
     <footer>
         <p>Av Paulista, 1106 7º andar - Bela Vista, São Paulo -SP, 01311-000</p>
     </footer> 
+    <script src="../js/0.0scripGeral.js"></script>
 </body>
 </html>

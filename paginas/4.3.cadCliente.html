@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <!-- Coloca o logo na janela do navegador do lado do title-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../css/imagens/favicon_io-4/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../css/imagens/favicon_io-4/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../css/imagens/favicon_io-4/favicon-16x16.png">
+    <!-- Links do CSS -->
+    <link rel="stylesheet" href="../CSS/StyleSheets/0.0.styleGeral.css">
+    <link rel="stylesheet" href="../CSS/StyleSheets/4.3.styleCadCliente.css">
+</head>
+<body>
+    <div class="contentPricipal">
+        <header>
+            <h1> <span id="textoColorido">SLOW FASHION</span> e <span id="textoColorido">MODA CIRCULAR</span> pelos oceanos </h1>
+        </header>
+        <!-- Barra de navegação no cabeçalho-->
+        <nav>
+            <div class="logoWearablue">
+                <img src="../CSS/imagens/logoWearablue.png" width="150px" alt="Logo WEARABLUE">
+            </div>
+            <div class="botaoVoltar">
+                <a href= "4.0.slowFashion_Repasse.html"> Voltar para <br> <span id="textoColorido">Loja</span> </a>
+            </div>
+        </nav>
+        <!-- AQUI COMEÇA O CONTEÚDO ESPECÍFICO DA PÁGINA -->
+        <main>
+            <section>
+                <div class="bannerCad">
+                    <div class="imgbanner">
+                        <img src="../CSS/imagens/cadpeca1.png" width="240px" alt="Simbolo de reciclagem feito com tecido">
+                    </div>
+                    <div class="titulo1cad">
+                        <h2><span id="textoColorido">Bem-vindo</span> ao recomeço</h2>
+                        <p>Fazer parte dessa revolução é dar mais uma <span id="textoColorido">chance pro ocenos</span>  e <span id="textoColorido"> sustentabilidade</span></p>
+                    </div>
+                    <div class="imgbanner">
+                        <img src="../CSS/imagens/cadepeca2.png" width="240px" alt="Desenho de uma pessoa ressignificando uma peça">
+                    </div>
+                </div>
+            </section>
+            <div class="cadCliente-container">
+                <section>
+                    <form action="cadastro" method="get">
+                        <div class="form-group">
+                            <label for="email_or_phone">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fullname">Nome completo:</label>
+                            <input type="text" id="fullname" name="fullname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Senha:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="botaoEnviar">
+                            <input class="inputEnviar" type="submit" value="Enviar">                
+                        </div>
+                    </form>
+                </section>
+            </div>
+            <div class="elementoCadCliente">
+                <section>
+                    <h3 id="h3CadCliente">Ao se cadastrar, você concorda com nossos <span id="textoColorido">Termos, Política de Privacidade e Política de Cookies</span> .</h3>
+                </section>     
+            </div>
+            <section>
+                <div class="botoes">
+                    <div class="botao">
+                        <a href="4.4.cadastroPeca.html">Cadastro de preça</a>
+                    </div>
+                    <div class="botao">
+                        <a href="5.1.cadastroBrecho.html">Cadastro de brechó</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="logoGS">
+        <a href="https://www.fiap.com.br/graduacao/global-solution/?gad_source=1&gclid=CjwKCAjwgdayBhBQEiwAXhMxttnSxP3XkqlPou3w4rchkGsZfr9zfak9yPUcJpS8tT7lrCtsRQO84hoCeX8QAvD_BwE" target="blank"><img src="../CSS/imagens/logoGS.png" width="180px" alt="Logo Global Solution"></a>
+    </div>
+    <footer>
+        <p>Av Paulista, 1106 7º andar - Bela Vista, São Paulo -SP, 01311-000</p>
+    </footer> 
+</body>
+</html>

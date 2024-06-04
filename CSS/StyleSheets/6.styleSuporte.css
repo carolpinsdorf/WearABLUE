@@ -7,11 +7,12 @@
     padding: 15px;
     font-weight: 300;
 }
-.formDadosPessoais, .formServico{
+.formDadosPessoais{
     color: #b3c0ce;
 }
 fieldset{
-    border: #021d47a4;
+    border: transparent;
+    width: fit-content;
 }
 .labelDados{
     padding: 15px 30px 10px;
@@ -20,6 +21,7 @@ fieldset{
 }
 .campoNome, .campoEmail{
     padding: 10px;
+    width: fit-content;
 }
 .inputDados, textarea{
     background-color: #b3c0ce00;
@@ -40,6 +42,8 @@ fieldset{
 }
 .formExperiencia{
     padding: 20px 50px;
+    width: fit-content;
+
 }
 .textareaExp{
     padding: 15px;
@@ -81,4 +85,44 @@ fieldset{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+@media (max-width:950px){
+    .h2Suporte{
+        font-size: 30px;
+    }
+    .labelDados, .h3Experiencia{
+        font-size: 20px;
+        padding: 0;
+        font-weight: 300;
+    }
+    .inputDados, .textareaExp{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .formExperiencia{
+        padding: 0;
+        margin-top: 5%;
+    }
+    .botaoEnviar{
+        margin: 5% 65%;
+    }
+    .pSuporte {
+        font-size: 20px;
+    }
+}
+@media (max-width:600px){
+    .h2Suporte{
+        font-size: 25px;
+    }
+    .labelDados, .h3Experiencia{
+        font-size: 15px;
+    }
+    .inputDados, textarea{
+        border: solid 3px #b3c0ce;
+    }
+    fieldset{
+        width: 90%;
+        padding: 10px;
+    }
 }

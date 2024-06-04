@@ -1,0 +1,153 @@
+
+/* CORES:      AZUL 317588         BRANCO   b3c0ce */
+
+#tituloFacaVoce{
+    color: #b3c0ce;
+    font-size: 45px;
+    text-align: center;
+    padding: 45px;
+}
+.cont1Voce{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont1Voce img{
+    width:400px;
+}
+.pcont1{
+    color: #b3c0ce;
+    text-align: center;
+    font-size: 35px;
+}
+.contFacaVc{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    align-items: center;
+}
+
+@media (max-width: 1080px){
+    .cont1Voce img{
+        width: 300px;
+    }
+}
+
+.art{
+    padding: 2%;
+    color: #317588;
+    display: flex;
+    font-size: 25px;
+}
+.art img{
+    width: 200px;
+}
+.imgArt{
+    border: solid 5px #b3c0ce;
+    width: fit-content;
+    padding:  18px 16px 15px 18px;
+    height: fit-content;
+
+}
+.tituloArt{
+    padding: 5% 20px;
+}
+.tituloArt h4{
+    font-weight: 500;
+}
+.botaoSaibaMais{
+    background-color: #3468905c;
+    width:fit-content;
+    padding: 10px 8px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10%;
+}
+.botaoSaibaMais:hover{
+    background-color: #3175887e;
+    font-weight: 300;
+}
+.botaoSaibaMais a:hover{
+    color: #317588;
+    font-weight: 400;
+}
+.botaoSaibaMais a{
+    font-size: 20px;
+    text-align: center;
+    color: #b3c0ce;
+}
+@media (max-width: 950px){
+    #tituloFacaVoce{
+        font-size: 30px;
+    }
+    .pcont1 p{
+        font-size: 20px;
+    }
+    .cont1Voce img{
+        width: 250px;
+    }
+    .contFacaVc{
+        flex-direction: column;
+        margin-top: 5%;
+        padding: 0;
+    }
+    .art img{
+        width:130px ;
+    }
+    .art{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .tituloArt{
+        width: 60%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tituloArt h4{
+        font-size: 20px;
+    }
+    .botaoSaibaMais{
+        margin-top: 3%;
+    }
+    .botaoSaibaMais a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 650px){
+    #tituloFacaVoce{
+        font-size: 25px;
+    } 
+    .cont1Voce img{
+        width: 150px;
+    }
+    .pcont1 p{
+        font-size:15px;
+    }
+}
+@media (max-width: 500px){
+    #tituloFacaVoce{
+        font-size: 18px;
+        margin-top: 0;
+        padding: 30px;
+    }
+    .cont1Voce img{
+        width: 100px;
+    }
+    .pcont1 p{
+        font-size: 13px;
+        margin-bottom: 25%;
+    }
+    .art img{
+        width: 100px;
+    }
+    .tituloArt h4{
+        font-size: 15px;
+    }
+}
