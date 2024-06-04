@@ -137,28 +137,45 @@ input {
     padding: 10px;
     text-align: center;
 }
-.botaoCadastrar:hover {
-    background-color: #3ba8e788;
-}
-.botaoCadastrar {
-    display: flex;
-    margin: auto;
-    margin-top: 5%;
-    background-color: #3ba8e7;
-    width: fit-content;
+.inputEnviar {
+    font-size: 20px;
+    width: 100px;
     border-radius: 10px;
+    background-color: #3ba8e7;
     color: #021c47;
-    padding: 5px 15px;
+    padding: 5px;
     border: #3ba8e7;
 }
-.pBotaoCadastrar a {
-    font-size: 20px;
-    color: #021c47;
-    font-weight: 300;
+.inputEnviar:hover {
+    background-color: #3ba8e788;
+    color: #b3c0ce;
+}
+.botaoEnviar {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+.botao{
+    padding: 30px;
+    cursor: pointer;
+    border: solid 3px #b3c0ce;
+    margin: 2% 5%;
+    flex-wrap: wrap;
     text-align: center;
 }
-.pBotaoCadastrar a:hover {
-    color: #b3c0ce;
+.botao:hover{
+    background-color: #31688894;
+}
+.botao a{
+    color:#3ba8e7;
+    font-size: 20px;
+    font-weight: 400;
 }
 /*              MEDIA QUERY FORMULARIO                  */
 
@@ -183,4 +200,8 @@ input {
       font-size: 12px;
     }
 }
-  
+@media (max-width:410px){
+    .botoes{
+        flex-direction: column;
+    }
+}

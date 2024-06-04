@@ -51,6 +51,9 @@
 .item2cont2{
     margin-right: 15%;
 }
+.item2cont2 img{
+    width: 200px;
+}
 .cont2e-comm img:hover{
     width: 60%;
 }
