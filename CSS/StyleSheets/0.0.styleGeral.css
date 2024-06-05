@@ -47,6 +47,7 @@ header{
 .nav-links-mobile{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .hamburguer img{
