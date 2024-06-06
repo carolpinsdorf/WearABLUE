@@ -1,26 +1,25 @@
 
 
 //       menu drop down
-let hamburguerButton = document.querySelector('#hamburguerButton');
-let closeButton = document.querySelector('#closeButton');
+// script.js
+// Quando o usuário rolar a página 20px para baixo a partir do topo, mostra o botão
+window.onscroll = function() {
+    scrollFunction();
+};
 
-let mobileMenu = document.querySelector('#mobileMenu');
-hamburguerButton.addEventListener('click', function(){
-    mobileMenu.classList.add('flex')
-})
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backToTopBtn").style.display = "block";
+    } else {
+        document.getElementById("backToTopBtn").style.display = "none";
+    }
+}
 
-closeButton.addEventListener('click', function(){
-    mobileMenu.classList.remove('flex')
-})
-
-document.addEventListener('DOMContentLoaded', () => {
-    const btnTopo = document.getElementById('btnTopo');
-
-   
-    btnTopo.addEventListener('click', () => {
-       
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+// Quando o usuário clicar no botão, rola a página até o topo
+document.getElementById("backToTopBtn").addEventListener("click", function() {
+    document.body.scrollTop = 0; // Para Safari
+    document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
 });
+
 
 

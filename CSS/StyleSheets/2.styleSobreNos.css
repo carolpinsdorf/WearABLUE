@@ -103,3 +103,24 @@ p a:hover, .repo a:hover{
         padding: 20px 10px;
     }
 }
+/* Estilos para o botão "Voltar ao Topo" */
+#backToTopBtn {
+    display: none; /* Escondido por padrão */
+    position: fixed;
+    bottom: 40px;
+    left: 20px; /* Posicionamento à esquerda */
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #317588; /* Background com transparência */
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#backToTopBtn:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Alteração do background ao passar o mouse */
+}
+
