@@ -86,6 +86,32 @@
     margin: auto ;
     width: fit-content;
 }
+.btn-azul-com-bola {
+    background-color: #317588; 
+    color: #ffffff ; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 50px; 
+    font-size: 14px; 
+    position: relative;
+}
+
+
+.btn-azul-com-bola::after {
+    content: ''; /* Cria um elemento pseudo-elemento */
+    width: 3px; /* Largura da bola */
+    height: 10px; /* Altura da bola */
+    background-color: #317588; /* Cor da bola */
+    border-radius: 50%; /* Formato arredondado */
+    position: absolute; /* Posicionamento absoluto em relação ao botão */
+    top: 50%; /* Posicionamento vertical no meio do botão */
+    right: 5px; /* Distância da bola à direita reduzida */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+}
+
+
+
+
 
 @media (max-width: 950px){
     .img1Causa img{
