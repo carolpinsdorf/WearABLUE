@@ -13,3 +13,14 @@ closeButton.addEventListener('click', function(){
     mobileMenu.classList.remove('flex')
 })
 
+document.addEventListener('DOMContentLoaded', () => {
+    const btnTopo = document.getElementById('btnTopo');
+
+   
+    btnTopo.addEventListener('click', () => {
+       
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});
+
+
